@@ -8,4 +8,5 @@ def create_app():
     from .admin import admin
     app.register_blueprint(view, url_prefix='/')
     app.register_blueprint(admin, url_prefix='/admin')
+    
     return app

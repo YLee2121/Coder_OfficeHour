@@ -6,6 +6,3 @@ view = Blueprint('view', __name__)
 def home():
     return 'code office hour'
 
-@view.route('/register')
-def register():
-    return 'register'
